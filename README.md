@@ -25,7 +25,6 @@
 <p align="center">
 <a href="#quick-start">Quick Start</a> •
 <a href="#why-trellis">Why Trellis</a> •
-<a href="#use-cases">Use Cases</a> •
 <a href="#how-it-works">How It Works</a> •
 <a href="#faq">FAQ</a>
 </p>
@@ -54,41 +53,6 @@ trellis init -u your-name
 
 > `your-name` becomes your identifier and creates a personal workspace at `.trellis/workspace/your-name/`
 
-<p align="center">
-<img src="assets/info.png" alt="Trellis Initialization Example" />
-</p>
-
-## Use Cases
-
-### Educating Your AI
-
-Write your specs in Markdown. Trellis injects them into every AI session — no more repeating yourself.
-
-<p align="center">
-<img src="assets/usecase1.png" alt="Teaching AI - Teach Once, Apply Forever" />
-</p>
-
-Define your component guidelines, file structure rules, and patterns once. AI automatically applies them when creating new code — using TypeScript with Props interface, following PascalCase naming, building functional components with hooks.
-
-### Ship in Parallel
-
-Spawn multiple Claude sessions in isolated worktrees with `/trellis:parallel`. Work on several features at once, merge when ready.
-
-<p align="center">
-<img src="assets/usecase2.png" alt="Parallel Work - Multiple features developing simultaneously" />
-</p>
-
-While coding, each worker runs in its own worktree (physically isolated directory), no blocking, no interference. Review and merge completed features while others are still in progress.
-
-### Custom Workflows
-
-Define custom skills & commands that prepare Claude for specific tasks and contexts.
-
-<p align="center">
-<img src="assets/usecase3.png" alt="Workflows - Custom commands for instant context loading" />
-</p>
-
-Create commands like `/trellis:before-frontend-dev` that load component guidelines, check recent changes, pull in test patterns, and review shared hooks—all with a single slash.
 
 ## How It Works
 
@@ -171,21 +135,3 @@ No. Each person has their own space at `.trellis/workspace/{name}/`.
 Use `/trellis:record-session` at the end of each conversation. AI writes a session summary to `.trellis/workspace/{name}/journal-N.md` and indexes it in `index.md`. Next time you `/trellis:start`, AI automatically reads recent journals and git info to restore context. In theory, you could just submit your daily journal files as your work report 🤣.
 
 </details>
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=mindfold-ai/Trellis&type=Date)](https://star-history.com/#mindfold-ai/Trellis&Date)
-
-## Community
-
-- [Discord](https://discord.com/invite/tWcCZ3aRHc) — Join the conversation
-- [GitHub Issues](https://github.com/mindfold-ai/Trellis/issues) — Report bugs & request features
-
-<p align="center">
-<a href="https://github.com/mindfold-ai/Trellis/blob/main/LICENSE">FSL License</a> •
-Made with care by <a href="https://github.com/mindfold-ai">Mindfold</a>
-</p>
-
-<p align="center">
-<sub>Found Trellis useful? Please consider giving it a ⭐</sub>
-</p>
