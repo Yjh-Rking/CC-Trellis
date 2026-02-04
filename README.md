@@ -91,14 +91,6 @@ trellis init -u your-name
 <img src="assets/workflow.png" alt="Trellis Workflow Diagram" />
 </p>
 
-## Roadmap
-
-- [ ] **Better Code Review** — More thorough automated review workflow
-- [ ] **Skill Packs** — Pre-built workflow packs, plug and play
-- [ ] **Broader Tool Support** — Cursor, OpenCode, Codex integration
-- [ ] **Stronger Session Continuity** — Autosave session-wide history
-- [ ] **Visual Parallel Sessions** — Real-time progress for each agent
-
 ## FAQ
 
 <details>
